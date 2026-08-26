@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 250" width="1100" height="250" role="img" aria-label="wifi-sentry - passive rogue access point monitor">
+  <title>wifi-sentry</title>
+
+  <defs>
+    <linearGradient id="b-good" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3FB950"/>
+      <stop offset="1" stop-color="#1A7F3C"/>
+    </linearGradient>
+    <linearGradient id="b-frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3FB950" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#1A7F3C" stop-opacity=".45"/>
+    </linearGradient>
+    <radialGradient id="b-sweep" cx="128" cy="176" r="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3FB950" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#3FB950" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(34,17) scale(0.84)">
+    <path d="M128 12 L224 65 V191 L128 244 L32 191 V65 Z"
+          fill="none" stroke="url(#b-frame)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M128 12 L224 65 V191 L128 244 L32 191 V65 Z" fill="url(#b-sweep)"/>
+    <path d="M104 152 A34 34 0 0 1 152 152"
+          fill="none" stroke="url(#b-good)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M61 110 A94 94 0 0 1 195 110"
+          fill="none" stroke="url(#b-good)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M83 131 A64 64 0 0 1 173 131"
+          fill="none" stroke="#F85149" stroke-width="15" stroke-linecap="round"
+          stroke-dasharray="26 20"/>
+    <circle cx="128" cy="176" r="13" fill="url(#b-good)"/>
+  </g>
+
+  <text x="272" y="118"
+        font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace"
+        font-size="74" font-weight="700" letter-spacing="-1">
+    <tspan fill="#8B949E">wifi-</tspan><tspan fill="#2EA44F">sentry</tspan>
+  </text>
+
+  <text x="274" y="160"
+        font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace"
+        font-size="22" fill="#8B949E">
+    passive rogue access-point monitor
+  </text>
+
+  <text x="274" y="196"
+        font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace"
+        font-size="19" fill="#6E7781">
+    baseline &#8594; detect &#8594; triage &#160;::&#160; MITRE ATT&amp;CK mapped
+  </text>
+
+  <g opacity=".9">
+    <g stroke="#F85149" stroke-width="2.5" fill="none" stroke-linecap="square">
+      <path d="M856 120 V104 H872"/>
+      <path d="M1056 104 H1072 V120"/>
+      <path d="M856 132 V148 H872"/>
+      <path d="M1056 148 H1072 V132"/>
+    </g>
+    <text x="964" y="132" text-anchor="middle"
+          font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace"
+          font-size="15" letter-spacing="1" fill="#F85149">
+      EVIL TWIN DETECTED
+    </text>
+  </g>
+</svg>
