@@ -1,10 +1,8 @@
 <div align="center">
 
-# wifi-sentry
+<img src="docs/banner.svg" alt="wifi-sentry — passive rogue access-point monitor" width="820">
 
 **A rogue access point monitor for Windows that works without monitor mode.**
-
-*Learns what your airwaves normally look like, then tells you when something is wrong.*
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Dependencies](https://img.shields.io/badge/dependencies-zero-2ea44f)](requirements.txt)
