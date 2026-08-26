@@ -1,0 +1,43 @@
+
+Interface name : Wi-Fi
+There are 6 networks currently visible.
+
+SSID 1 : TrustedNet
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None
+    BSSID 1                 : 02:11:22:33:44:55
+         Signal             : 98%
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 6
+
+SSID 2 : HomeNet_5G
+    Network type            : Infrastructure
+    Authentication          : WPA3-Personal
+    Encryption              : CCMP
+    BSSID 1                 : 50:c7:bf:11:22:33
+         Signal             : 62%
+         Radio type         : 802.11ax
+         Band               : 5 GHz
+         Channel            : 149
+
+SSID 3 : Free_Airport_WiFi
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None
+    BSSID 1                 : b8:27:eb:99:88:77
+         Signal             : 88%
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11
+
+SSID 4 : Starbucks
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None
+    BSSID 1                 : b8:27:eb:99:88:77
+         Signal             : 88%
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11

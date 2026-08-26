@@ -1,0 +1,48 @@
+
+Interface name : Wi-Fi
+There are 5 networks currently visible.
+
+SSID 1 : TrustedNet
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP
+    BSSID 1                 : 70:bc:48:00:11:01
+         Signal             : 92%
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 44
+    BSSID 2                 : 70:bc:48:00:11:02
+         Signal             : 78%
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 6
+
+SSID 2 : HomeNet_5G
+    Network type            : Infrastructure
+    Authentication          : WPA3-Personal
+    Encryption              : CCMP
+    BSSID 1                 : 50:c7:bf:11:22:33
+         Signal             : 64%
+         Radio type         : 802.11ax
+         Band               : 5 GHz
+         Channel            : 149
+
+SSID 3 :
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP
+    BSSID 1                 : 2c:30:33:aa:bb:cc
+         Signal             : 40%
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11
+
+SSID 4 : Cafe-Guest
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None
+    BSSID 1                 : 74:83:c2:de:ad:01
+         Signal             : 30%
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 1
