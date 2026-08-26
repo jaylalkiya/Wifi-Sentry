@@ -1,0 +1,7 @@
+# No third-party dependencies.
+# wifi-sentry runs on the Python 3.10+ standard library alone:
+#   subprocess (netsh), sqlite3, json, argparse, dataclasses, unittest.
+#
+# Optional, not a package: IEEE's OUI registry for full vendor coverage.
+#   curl -o oui.txt https://standards-oui.ieee.org/oui/oui.txt
+#   python -m wifisentry --oui-file oui.txt scan

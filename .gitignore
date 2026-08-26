@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.db
+*.jsonl
+wifi-sentry.config.json
+oui.txt
+demo.db
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
